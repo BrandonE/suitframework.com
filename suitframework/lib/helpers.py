@@ -602,9 +602,11 @@ def tryit():
     c.condition.php = False
     c.condition.python = False
     c.condition.first = True
-	if c.executeconfig['entities']:
+	
+    if c.executeconfig['entities']:
         c.executed = escape(c.executed)
-    try:
+    
+	try:
         python = os.path.join(
             config['suit.templates'],
             'tryit',
