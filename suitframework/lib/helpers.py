@@ -11,6 +11,7 @@ try:
 except ImportError:
     import simplejson as json
 import os
+from cgi import escape
 from glob import glob
 from pylons import config, request, response, session, tmpl_context as c, url
 from pylons.controllers.util import redirect
@@ -602,10 +603,6 @@ def tryit():
     c.condition.php = False
     c.condition.python = False
     c.condition.first = True
-
-    if c.executeconfig['entities']:
-        c.executed = escape(c.executed)
-    
     try:
         python = os.path.join(
             config['suit.templates'],
@@ -642,6 +639,8 @@ def tryit():
                 'base': os.path.basename(value)
             })
     c.condition.templates = len(c.templates)
+	if c.executeconfig['entities']:
+        c.executed = escape(c.executed)
     if c.executeconfig['linebreak']:
         c.executed = c.executed.replace('\n', '<br />\n')
     c.error = False
