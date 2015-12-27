@@ -639,7 +639,7 @@ def tryit():
                 'base': os.path.basename(value)
             })
     c.condition.templates = len(c.templates)
-	if c.executeconfig['entities']:
+    if c.executeconfig['entities']:
         c.executed = escape(c.executed)
     if c.executeconfig['linebreak']:
         c.executed = c.executed.replace('\n', '<br />\n')
