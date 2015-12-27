@@ -1,1 +1,1 @@
-[img]http://www.suitframework.com/images/logo.png[/img]
+[img]http://suit.brandonevans.org/images/logo.png[/img]

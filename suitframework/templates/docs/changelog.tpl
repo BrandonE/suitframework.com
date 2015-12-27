@@ -7,6 +7,7 @@
     <ul>
         <li>[gettext]Fixed copyrights. For some reason, it said it was using the GPL instead of the LGPL, and Rulebox wasn't part of a package.[/gettext]</li>
         <li>[gettext]Ran 2to3.py on all of the Python files, which supposedly makes SUIT compatible with Python 3.[/gettext]</li>
+        <li>[gettext]Prevented SUIT from processing an empty log. SLACKS often would cause this problem, so I figured I might as well do this, even if there's no logical reason for the log to be empty at this stage in the process.[/gettext]</li>
         <li>[gettext]Apparently, json is preferred over simplejson, so now it'll try to import json, and if it fails, it'll import simplejson.[/gettext]</li>
         <li>[gettext]Made it so that Rulebox for PHP can use [skip][call /] and [transform][/skip] with actual kwargs instead of just an array.[/gettext]</li>
         <li>[gettext]Applied Chris' new entities formatting to templating.py of Rulebox Python.[/gettext]</li>

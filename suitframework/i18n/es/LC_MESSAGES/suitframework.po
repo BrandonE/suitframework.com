@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Copyright (C) 2008-2010 Brandon Evans and Chris Santiago.
-# http://www.suitframework.com/
-# http://www.suitframework.com/docs/credits
+# Copyright (C) 2008-2015 Brandon Evans and Chris Santiago.
+# http://suit.brandonevans.org/
+# http://suit.brandonevans.org/docs/credits
 #
 msgid ""
 msgstr ""
@@ -239,7 +239,7 @@ msgstr ""
 msgid "Convert HTML characters to their respective entities."
 msgstr ""
 
-msgid "Copyright &copy; 2008-2010 <a href=\"http://www.brandonevans.org/\" target=\"_blank\">Brandon Evans</a> and <a href=\"http://www.faltzershq.com/\" target=\"_blank\">Chris Santiago</a>. All Rights Reserved."
+msgid "Copyright &copy; 2008-2015 <a href=\"http://www.brandonevans.org/\" target=\"_blank\">Brandon Evans</a> and <a href=\"http://www.faltzershq.com/\" target=\"_blank\">Chris Santiago</a>. All Rights Reserved."
 msgstr ""
 
 msgid "Create a link to an E-Mail."
@@ -572,7 +572,7 @@ msgstr "Analizar"
 msgid "Peter Behr"
 msgstr ""
 
-msgid "Powered by <a target=\"_blank\" href=\"http://www.suitframework.com/\">SUIT</a>"
+msgid "Powered by <a target=\"_blank\" href=\"http://suit.brandonevans.org/\">SUIT</a>"
 msgstr ""
 
 msgid "Prepare to return from this point on."

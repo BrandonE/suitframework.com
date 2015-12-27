@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (C) 2008-2010 Brandon Evans and Chris Santiago.
+# Copyright (C) 2008-2015 Brandon Evans and Chris Santiago.
 # http://www.suitframework.com/
 # http://www.suitframework.com/docs/credits
 #
@@ -242,7 +242,7 @@ msgstr ""
 msgid "Convert HTML characters to their respective entities."
 msgstr ""
 
-msgid "Copyright &copy; 2008-2010 Brandon Evans and Chris Santiago. All Rights Reserved."
+msgid "Copyright &copy; 2008-2015 Brandon Evans and Chris Santiago. All Rights Reserved."
 msgstr ""
 
 msgid "Create a link to an E-Mail."
