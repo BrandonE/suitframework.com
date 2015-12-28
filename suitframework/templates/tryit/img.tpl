@@ -1,1 +1,1 @@
-[img]http://suit.brandonevans.org/images/logo.png[/img]
+[img]https://suit.herokuapp.com/images/logo.png[/img]

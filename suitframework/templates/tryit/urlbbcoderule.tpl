@@ -1,1 +1,1 @@
-[url=http://suit.brandonevans.org/]Here's yet another link to the SUIT website.[/url]
+[url=https://suit.herokuapp.com/]Here's yet another link to the SUIT website.[/url]

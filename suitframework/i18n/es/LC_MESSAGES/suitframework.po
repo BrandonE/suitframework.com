@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Copyright (C) 2008-2015 Brandon Evans and Chris Santiago.
-# http://suit.brandonevans.org/
-# http://suit.brandonevans.org/docs/credits
+# https://suit.herokuapp.com/
+# https://suit.herokuapp.com/docs/credits
 #
 msgid ""
 msgstr ""
@@ -572,7 +572,7 @@ msgstr "Analizar"
 msgid "Peter Behr"
 msgstr ""
 
-msgid "Powered by <a target=\"_blank\" href=\"http://suit.brandonevans.org/\">SUIT</a>"
+msgid "Powered by <a target=\"_blank\" href=\"https://suit.herokuapp.com/\">SUIT</a>"
 msgstr ""
 
 msgid "Prepare to return from this point on."

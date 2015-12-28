@@ -10,12 +10,12 @@
         <a href="http://suitframework.svn.sourceforge.net/viewvc/suitframework/" target="_blank">[gettext]SVN[/gettext]</a> |
         <a href="https://sourceforge.net/projects/suitframework/forums" target="_blank">[gettext]Forums[/gettext]</a>
     </p>
-    <p>[gettext]Powered by <a target="_blank" href="http://suit.brandonevans.org/">SUIT</a>[/gettext]</p>
+    <p>[gettext]Powered by <a target="_blank" href="https://suit.herokuapp.com/">SUIT</a>[/gettext]</p>
     <p>[gettext]Copyright &copy; 2008-2015 <a href="http://www.brandonevans.org/" target="_blank">Brandon Evans</a> and <a href="http://www.faltzershq.com/" target="_blank">Chris Santiago</a>. All Rights Reserved.[/gettext]</p>
     <p><a href="https://lists.sourceforge.net/lists/listinfo/suitframework-news">[gettext]Subscribe to our Mailing List[/gettext]</a></p>
     [if condition="condition.slacks" not="true"]
     <p>
-        <a href="http://suit.brandonevans.org/slacks/?referrer=true" target="_blank"><img src="/images/slacks.png" alt="Debug with SLACKS" /></a>
+        <a href="https://suit.herokuapp.com/slacks/?referrer=true" target="_blank"><img src="/images/slacks.png" alt="Debug with SLACKS" /></a>
     </p>
     <form action="#" method="post">
     [loop key="key" value="value" iterable="slackslog"]
@@ -25,7 +25,7 @@
     </form>
     [/if]
     <p>
-        <a href="http://suit.brandonevans.org/" target="_blank"><img src="/images/poweredby/suit.png" alt="[gettext]SUIT[/gettext]" /></a>
+        <a href="https://suit.herokuapp.com/" target="_blank"><img src="/images/poweredby/suit.png" alt="[gettext]SUIT[/gettext]" /></a>
         <a href="http://php.net/" target="_blank"><img src="/images/poweredby/php.gif" alt="[gettext]PHP[/gettext]" /></a>
         <a href="http://www.python.org/" target="_blank"><img src="/images/poweredby/python.png" alt="[gettext]Python[/gettext]" /></a>
     </p>
