@@ -11,7 +11,6 @@ try:
 except ImportError:
     import simplejson as json
 import os
-from cgi import escape
 from glob import glob
 from pylons import config, request, response, session, tmpl_context as c, url
 from pylons.controllers.util import redirect
@@ -642,7 +641,7 @@ def tryit():
     if c.executeconfig['entities']:
         c.executed = escape(c.executed)
     if c.executeconfig['linebreak']:
-        c.executed = c.executed.replace('\n', '<br />\n')
+        c.executed = c.executed.replace('\n', literal('<br />\n'))
     c.error = False
     try:
         c.executed = suit.execute(rules, c.executed, c.executeconfig)
