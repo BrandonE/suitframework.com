@@ -52,5 +52,5 @@
     <div class="section">
         <h2>[c]title[/c]</h2>
         <p style="text-align: center">
-            <strong>[gettext]12/27/2015: SUIT Framework is no longer maintained. This website is intended for archive purposes only. Please consider <a href="https://angularjs.org/" target="_blank">AngularJS</a> as a modern alternative.[/gettext]</strong>
+            <strong>[gettext]12/27/2015: SUIT Framework is no longer actively maintained.[/gettext]</strong>
         </p>
