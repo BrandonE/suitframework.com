@@ -7,7 +7,7 @@
         <a href="[url controller="root" action="template" templatefile="docs" /]">[gettext]Docs[/gettext]</a> |
         <a href="[url controller="root" action="template" templatefile="tryit" /]">[gettext]Try It[/gettext]</a> |
         <a href="[url controller="root" action="template" templatefile="slacks" /]">[gettext]SLACKS[/gettext]</a> |
-        <a href="http://suitframework.svn.sourceforge.net/viewvc/suitframework/" target="_blank">[gettext]SVN[/gettext]</a> |
+        <a href="https://github.com/BrandonE/suit" target="_blank">[gettext]GitHub[/gettext]</a> |
         <a href="https://sourceforge.net/projects/suitframework/forums" target="_blank">[gettext]Forums[/gettext]</a>
     </p>
     <p>[gettext]Powered by <a target="_blank" href="https://suit.herokuapp.com/">SUIT</a>[/gettext]</p>
